@@ -1,0 +1,6 @@
+console.log(5 === '5'); // false (integer ≠ string)
+console.log(1 === true); // false (number ≠ boolean)
+console.log(0 === false); // false (number ≠ boolean)
+console.log(null === undefined); // false (null ≠ undefined)
+console.log('' === 0); // false (string ≠ number)
+console.log(5 === 5) // true (sama tipe dan nilai)

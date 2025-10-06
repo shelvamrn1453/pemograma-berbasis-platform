@@ -1,0 +1,6 @@
+console.log(5 == '5'); // true (angka 5 sama dengan string "5")
+console.log(1 == true); // true (boolean 1 dikonversi ke true)
+console.log(0 == false); // true (boolean 0 dikonversi ke false)
+console.log(null == undefined); // true (keduanya dianggap "kosong")
+console.log(' ' == 0); // true (string spasi dikonversi ke 0)
+console.log('' == 0); // true (string kosong dikonversi ke 0)
